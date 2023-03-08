@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2 family=Noto+Sans+Display&display=swap');
+*
+{
+  box-sizing: border-box;
+  font-family: 'Noto Sans Display', sans-serif;
+}
+.navbar-custom
+{
+  background: #3AAFA9;
+  font-size: 18px;
+}
+body
+{
+  background: #FEFFFF;  
+}
+
+.footer-custom
+{
+  background:rgb(222, 242, 241);
+}
+
+#message{
+  padding: 0.5rem;
+}
+.message-form{
+  margin: auto;
+}
+.message-form label{
+  padding-top:0.5rem;
+}
+.message-form button{
+  background: #3AAFA9;
+  margin-top: 2rem;
+  float: right;
+  color: #def2f1;
+}
+.message-form button:hover{
+background: #2b7a78;
+color: #def2f1;
+}
+.message-form input:hover{
+background: #def2f1;
+}
+.message-form textarea:hover{
+  background: #def2f1;
+}
+.message-form #attach-file:hover{
+  background:white;
+}
+.message-form h2{
+  text-align: center;
+}
+.form-control-file{
+display: -webkit-box;
+flex-shrink: 0;
+}
+@media only screen and (max-width: 786px) {
+  .message-form{
+  width: 70%;
+  }
+}
+@media only screen and (min-width: 786px){
+.message-form{
+  width: 40%;
+}
+}
+

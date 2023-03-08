@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2 family=Noto+Sans+Display&display=swap');
+
+*
+{
+  box-sizing: border-box;
+  font-family: 'Noto Sans Display', sans-serif;
+}
+.navbar-custom
+{
+  background: #3AAFA9;
+  font-size: 18px;
+}
+body
+{
+  background: #FEFFFF;  
+}
+
+.footer-custom
+{
+  background:rgb(222, 242, 241);
+}

@@ -1,0 +1,184 @@
+/*  -----IMPORT FONT----  */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display&display=swap');
+
+/*  --------EVERYTHING----------  */
+*
+{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Noto Sans Display', sans-serif;
+}
+
+/*  -------NAVIGATION BAR-------  */
+nav
+{
+  background: #BAC3FF;
+  position: fixed;
+  width: 100%;
+  height: 75px;
+  line-height: 75px; /*Makes the text 75px high*/
+  padding: 0px 25px 0px 0px;
+}
+#logo-image
+{
+  margin-left: 5px;
+  margin-top: 0px;
+  height: 75px;
+  width: 225px;
+}
+.navigation-buttons
+{
+  float: right;
+}
+.navigation-buttons li
+{
+  display: inline-block;
+}
+.button
+{
+  border: none;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: large;
+  cursor: pointer;
+  color: black;
+}
+.button:hover
+{
+  background-color: #E996FA;
+  border: #E996FA;
+  border-radius: 5px;
+}
+/*  ------END OF NAVIGATION BAR------ */
+
+/*  --------CONTENT--------  */
+body
+{
+  background: #FFF5FC;
+  min-height: 100vh;
+  position: relative;
+}
+.content
+{
+  padding-top: 75px;
+  padding-bottom: 50px;
+}
+/*  --------END OF CONTENT-------  */
+
+/*  ----------FOOTER------------  */
+footer
+{
+  position: absolute;
+  height:50px;
+  width: 100%;
+  bottom: 0;
+  background-color:#BAC3FF;
+  color: white;
+  text-align: center;
+}
+footer div
+{
+  margin: auto;
+  padding: 10px;
+  float: left;
+  width: 33%;
+}
+/*  --------END OF FOOTER-------- */
+
+/*  ------PLEASE WRITE SUBPAGE-SPECIFIC STYLES HERE-----  */
+
+/*  ---------SCHEDULE SUBPAGE------ */
+.semester-schedule .weekly-schedule
+{
+  width: 100%;
+}
+.schedule-header{
+  margin: 10px;
+}
+.semester-schedule-description, .semester-schedule-image
+{
+  float: left;
+  margin: 1%;
+}
+.semester-schedule-image
+{
+  width: 25%;
+  text-align: center;
+  border: 0.2rem solid black;
+}
+.semester-schedule-description
+{
+  width: 70%;
+  text-align: justify;
+}
+#schedule-image-caption
+{
+  color: darkgrey;
+  font-size: small;
+}
+.weekly-schedule
+{
+  clear: both;
+}
+#weekly-schedule-table
+{
+  margin: auto;
+}
+#weekly-schedule-table th
+{
+  font-size: large;
+  font-weight: 900;
+  background: #FF69B4;
+  height: 3rem;
+  width: 12rem;
+  border: 0.3rem solid black;
+  border-radius: 1rem;
+}
+#weekly-schedule-table td
+{
+  font-size: medium;
+  height: 7rem;
+  width: 12rem;
+  border: 0.2rem solid black;
+  border-radius: 1rem;
+  text-align: center;
+  font-weight: 600;
+}
+#weekly-schedule-table tr:nth-child(2)
+{
+  background: #F3EADA;
+}
+#weekly-schedule-table td:nth-child(1)
+{
+  border: 0.3rem solid black;
+  background: #FF69B4;
+  font-weight: 900;
+  font-size: large;
+}
+.weekly-schedule-table-sdj
+{
+  background: #00ACFF;
+}
+.weekly-schedule-table-sep
+{
+  background: #60B319;
+}
+.weekly-schedule-table-wsx
+{
+  background: #AF54F2;
+}
+.weekly-schedule-table-rwd
+{
+  background: #00B393;
+}
+.weekly-schedule-table-dma
+{
+  background: #BD9B2E;
+}
+.weekly-schedule-table-deadlines
+{
+  background: #FF160C	;
+}
+/*  -------END OF SCHEDULE SUBPAGE----- */

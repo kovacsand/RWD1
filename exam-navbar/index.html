@@ -1,0 +1,39 @@
+<!--The exercise was not clear what the hover effect should be applied to.
+I have applied it to the whole navigation bar, but maybe they wanted it to be applied only to the links.
+That would have been done in a similar way, but instead of #links:hover
+It would have been: #links a:hover, when targeting the elements in the css.-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Home</title>
+  <style>
+    #links
+    {
+      background-color: hotpink;
+    }
+    #links:hover
+    {
+      background-color: cyan;
+    }
+    /*
+    #links a:hover
+    {
+      color: cyan;
+    }
+    */
+  </style>
+</head>
+<body>
+<div>
+  <ul id="links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="products/collars.html">Collars</a></li>
+    <li><a href="products/shampoo.html">Shampoo</a></li>
+    <li><a href="services/bathing.html">Bathing</a></li>
+    <li><a href="services/daycare.html">Daycare</a></li>
+  </ul>
+</div>
+</body>
+</html>
