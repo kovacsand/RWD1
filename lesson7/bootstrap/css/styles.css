@@ -1,0 +1,29 @@
+.col-sm-2, .col-md {
+    background-color: #AAAAAA;
+    border: 1px solid black;
+}
+.col-md-9, .col-lg-5 .col {
+    background-color: #AAAAAA;
+    border: 1px solid black;
+}
+
+
+#text-area {
+    background-color: cadetblue;
+    padding: 2%;
+}
+#text-area .row {
+    background-color: navajowhite;
+    padding-top: 1%;
+}
+#text-area #nav-bar {
+    padding-top: 0%;
+    background-color: cadetblue;
+}
+.col-auto, .col-4 {
+    padding: 0px;
+}
+.col-auto {
+    border: 1px solid black;
+    background-color: orange;
+}

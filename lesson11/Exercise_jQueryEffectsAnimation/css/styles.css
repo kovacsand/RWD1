@@ -1,0 +1,22 @@
+div {
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+
+#orangeBoxId {
+    background-color: orange;
+}
+
+#greenBoxId {
+    background-color: palegreen;
+}
+
+#redBoxId {
+    background-color: red;
+
+}
+
+#blueBoxId {
+    background-color: dodgerblue;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery exercise 1</title>
+    <link href="css/styles.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+    <h1>jQuery exercise 1</h1>
+    <p>You are <u>NOT</u> allowed to modify this HTML at all.</p>
+    <p>All event listeners should be implemented using jQuery selectors.</p>
+    <p>If you are stuck on a task then move on to the next.</p>
+    <p>Example: When you click this button, it will display the content of the src attribute for the image below <button id="exampleButtonId">src=...</button></p>
+    <h2>Exercise tasks</h2>
+    <img id="imageId" src="images/sad.jpg" />
+    <ol>
+        <li value="1">Change the font size for the header of this list to 40px when pressing the button here: <button id="fontSizeChangeButtonId">Change header font</button></li>
+
+        <li value="2">Create an event listener so when you click the button here it changes its text. <button id="textButtonId">Click Me</button></li>
+
+        <li value="3">Create an event listener so when you click the image above it changes from sad to glad and back when you click again.</li>
+
+        <li value="4">Create an event listener so when you click the underlined word 'NOT' in the exercise introduction, it changes into the word 'NEVER' and back when you click again.</li>
+
+        <li value="5">Create an event listener so when you click any list item the value of its "value" attribute will be displayed next to this line. Value is: <span id="spanFieldId">0</span></li>
+
+        <li value="6">Create an event listener so when you click anywhere on the screen the coordinates where you clicked will be displayed here. X-coord.: <span id="xcoordId">0</span> Y-coord.: <span id="ycoordId">0</span></li>
+
+        <li value="7">Implement so when you move the mouse cursor over the box below this line it will randomly change color to one of four available (blue, red, yellow, green)<div id="colorBox1Id"></div>
+        </li>
+
+        <li value="8">Implement so when you type in values in this text field, the color box above will also change its color. <input type="text" id="textFieldId" /></li>
+
+        <li value="9">Implement so when the text field above gets focus, the box below this line will turn green and will go back to black when the text field loses focus. <div id="colorBox2Id"></div>
+        </li>
+    </ol>
+
+    <!-- Add JavaScript file references under this line -->
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

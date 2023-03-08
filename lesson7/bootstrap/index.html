@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Exercise, Bootstrap</title>
+    <meta charset="utf-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <h1>Exercise, Bootstrap</h1>
+    <p>Try out the Bootstrap Grid Layout features. First download and include the necessary files to enable Bootstrap features in this webpage project. When you do it correctly, you can see an effect on the fields below.</p>
+    <div class="container">
+        <div class="row">
+            <div class="col-md order-lg-2">Field 1</div>
+            <div class="col-md order-lg-1">Field 2</div>
+        </div>
+        <div class="row">
+            <div class="col-md">Field 3</div>
+            <div class="col-md">Field 4</div>
+            <div class="col-md">Field 5</div>
+        </div>
+        <div class="row">
+            <div class="col-sm-2">Field 6</div>
+            <div class="col-sm-2 offset-2">Field 7</div>
+            <div class="col-sm-2 offset-2">Field 8</div>
+        </div>
+    </div>
+    <ol>
+        <li>Create a Grid Layout row with two fields. One field should take up 9 columns when the browser window is bigger than 768 pixels and 5 columns when the window is bigger than 992 pixels. The other field should be sized to accommodate that.</li>
+        <li>There should be space between fields 6, 7 and 8.</li>
+        <li>On a browser window size greater than 992 pixels, field 1 and 2 should swap positions.
+        </li>
+        <li>Try again to recreate the webpage shown on the picture below, but this time use Grid Layout to arrange the elements.</li>
+    </ol>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-9 col-lg-5">Field 1</div>
+            <div class="col">Field 2</div>
+        </div>
+    </div>
+
+    <img src="images/big.png" alt="A large webpage">
+
+    <div class="container" id="text-area">
+        <div id="nav-bar" class="row justify-content-center">
+            <div class="col-4"></div>
+            <div class="col-auto">home</div>
+            <div class="col-auto">section 1</div>
+            <div class="col-auto">section 2</div>
+            <div class="col-auto">section 3</div>
+            <div class="col-4"></div>
+        </div>
+        <div class="row">
+            <div class="col">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, aliquid assumenda consequuntur culpa dignissimos doloribus eius, enim eos et harum hic magni mollitia necessitatibus nulla qui repellat, sequi ut veritatis.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda consequatur inventore laboriosam quam quibusdam! Alias aperiam consectetur, dolorem impedit ipsa libero nesciunt nostrum numquam, repellendus, sequi temporibus veniam. Dignissimos, sint.</div>
+            <div class="col">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquam cupiditate iste itaque, iure nobis numquam odit perspiciatis provident quae! Ad beatae, dolorum ipsam numquam pariatur placeat rem rerum suscipit?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur corporis dignissimos quo voluptates. Ducimus, exercitationem maiores minus nobis sed tempore velit veniam? Adipisci assumenda commodi et iusto nulla officiis quos!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquam commodi consequatur distinctio illum inventore iste laboriosam molestias obcaecati, officiis omnis perspiciatis provident quibusdam quos repellendus sapiente sequi sunt ut.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aperiam asperiores, dolore eos harum modi mollitia omnis veniam? A ab asperiores, dicta esse eum eveniet fuga optio quam sint suscipit.</div>
+            <div class="col">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad architecto assumenda beatae debitis delectus doloribus dolorum error, explicabo inventore necessitatibus nisi omnis pariatur quis, quod similique, voluptatem voluptates! Facilis.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium adipisci architecto asperiores autem consectetur consequatur corporis cupiditate dolore ducimus, ipsam minima necessitatibus, pariatur possimus quis quo, sequi sit tenetur vitae.
+                <img src="images/Nicki_small.jpg" width="80%" style="float: right">
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

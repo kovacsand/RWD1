@@ -1,0 +1,24 @@
+.navbar-expand
+{
+  background-color: lightyellow;
+}
+.nav-link, .nav-link:active, .nav-link:visited
+{
+  color: saddlebrown;
+}
+.nav-link:hover
+{
+  color: #60300d;
+}
+#potato-carousel
+{
+  width: 50%;
+}
+.carousel-control-next, .carousel-control-prev
+{
+  background-color: rgba(211, 211, 211, 0.2);
+}
+h5
+{
+  color: black;
+}
