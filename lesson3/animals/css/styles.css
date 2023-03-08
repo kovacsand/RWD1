@@ -1,0 +1,101 @@
+body {
+    background-color: greenyellow;
+    box-sizing: content-box;
+}
+
+.animal_main {
+    height: 150px;
+    float: left;
+    margin: 0px;
+    padding: 0.2em;
+}
+
+.animal_card {
+    width: 200px;
+    position: relative;
+    top: 10rem;
+    left: 5rem;
+}
+#crocodile-div {
+    height: 150px;
+    width: 47%;
+    background-color: olive;
+    overflow: auto;
+    float: left;
+    padding: 1%;
+    margin: auto;
+    border: medium black solid;
+}
+#elephant-div {
+    height: 150px;
+    width: 47%;
+    background-color: lightgrey;
+    overflow: auto;
+    float: left;
+    padding: 1%;
+    margin: auto;
+    border: medium black solid;
+}
+#giraffe-div {
+    height: 150px;
+    width: 47%;
+    background-color: sandybrown;
+    overflow: auto;
+    clear: left;
+    float: left;
+    padding: 1%;
+    margin: auto;
+    border: medium black solid;
+}
+#tiger-div {
+    height: 150px;
+    width: 47%;
+    background-color: orange;
+    overflow: auto;
+    float: left;
+    padding: 1%;
+    margin: auto;
+    border: medium black solid;
+}
+p {
+    margin: 0px;
+    padding: 0px;
+}
+#four-animals {
+    margin: auto;
+}
+#cheetah {
+    position: relative;
+    left: 20rem;
+    top: 5rem;
+    z-index: 2;
+    border: thick darkgoldenrod solid;
+}
+#hippo {
+    position: relative;
+    left: -4rem;
+    z-index: 2;
+    top: 10rem;
+    border: thick dimgrey solid;
+}
+#lion {
+    position: relative;
+    left: 4rem;
+    z-index: 2;
+    top: 14rem;
+    border: thick saddlebrown solid;
+}
+#ostrich {
+    position: relative;
+    left: -8rem;
+    z-index: 3;
+    top: 4rem;
+    border: thick lightpink solid;
+}
+#zebra {
+    position: relative;
+    left: -35rem;
+    z-index: 1;
+    top: 13rem;
+    border: thick lightgrey solid;
+}

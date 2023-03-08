@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Exercise, HTML forms</title>
+  <link href="css/styles.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<h1>Exercise, HTML forms</h1>
+<form action="http://www.no-where.com/formhandler.php" method="get">
+  <fieldset>
+    <legend>My Form</legend>
+    <label>First field:
+      <input type="text" name="firstField" id="firstField" value="Type here">
+    </label>
+    <label>Second field:
+      <input type="text" name="secondField" id="secondField">
+    </label>
+    <label>Comments:
+      <textarea placeholder="Enter something"></textarea>
+    </label>
+    <label>Fruits:
+      <select name="fruits">
+        <option value="apple">Apple</option>
+        <option value="banana">Banana</option>
+        <option value="kiwi" selected>Kiwi</option>
+        <option value="orange">Orange</option>
+      </select>
+    </label>
+  </fieldset>
+  <input type="submit" value="Submit this form">
+  <input type="reset">
+</form>
+<form>
+  <input type="checkbox" id="red" value="red">
+  <label for="red">Red</label>
+  <input type="checkbox" id="green" value="green">
+  <label for="green">Green</label>
+  <input type="checkbox" id="blue" value="blue">
+  <label for="blue">Blue</label>
+</form>
+<form>
+  <input type="radio" name="music" id="heavy-metal" value="heavy-metal">
+  <label for="heavy-metal">Heavy Metal</label>
+  <input type="radio" name="music" id="rock" value="rock">
+  <label for="rock">Rock</label>
+  <input type="radio" name="music" id="punk" value="punk">
+  <label for="punk">Punk</label>
+  <input type="radio" name="music" id="indie" value="indie">
+  <label for="indie">Indie</label>
+  <input type="radio" name="music" id="pop" value="pop">
+  <label for="pop">Pop</label>
+  <input type="radio" name="music" id="electronic" value="electronic">
+  <label for="electronic">Electronic</label>
+  <input type="radio" name="music" id="country" value="country">
+  <label for="country">Country</label>
+  <input type="radio" name="music" id="classical" value="classical">
+  <label for="classical">Classical</label>
+  <input type="radio" name="music" id="jazz" value="jazz">
+  <label for="jazz">Jazz</label>
+</form>
+</body>
+</html>

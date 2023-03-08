@@ -1,0 +1,54 @@
+* {
+  font-family: 'Nova Mono', monospace;
+  color: navajowhite;
+}
+body {
+  background-image: url("https://images.unsplash.com/photo-1495578942200-c5f5d2137def?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80");
+  background-size: cover;
+}
+.home {
+  text-align: center;
+  }
+#brand-title {
+  text-align: center;
+  font-size: xxx-large;
+}
+.menu-title {
+  margin: auto;
+  text-align: center;
+  font-size: xx-large;
+
+}
+#logo-figure {
+  text-align: center;
+}
+#logo {
+  border: thick solid black;
+  text-align: center;
+  margin: auto;
+}
+.links {
+  margin: auto;
+  text-align: center;
+}
+.links li{
+  display: inline;
+  font-size: xx-large;
+  margin: 10px;
+}
+.menu-items {
+  list-style-type: none;
+  padding: 0px;
+}
+.menu-items li {
+  text-align: center;
+}
+figcaption {
+  font-size: large;
+}
+a:hover {
+  color:yellow;
+}
+.back-button {
+  float: right;
+}
