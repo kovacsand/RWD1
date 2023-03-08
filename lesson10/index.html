@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise. XML and AJAX</title>
+    <link href="css/styles.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+    <h1>Exercise. XML and AJAX</h1>
+    <p>Try out the XML data format and use the DOM to access the data. Use AJAX to read XML data from an external file.</p>
+    <table id="GOT"></table>
+    <table id="HP"></table>
+    <ol>
+        <li>Create an XML document that contains a list of things that make you happy, things that you are good at and things you want to learn. We will use it later and now you know how XML files are made.</li>
+        <li>Validate it using <a href="https://www.w3schools.com/xml/xml_validator.asp" target="_blank">https://www.w3schools.com/xml/xml_validator.asp</a>. Save it as an XML file - call it myList.xml.</li>
+
+        <li>Example implemention of a JavaScript fuction that reads XML data that contains the author and book titles behind the Game of Thrones TV series, and displays the value of the first title item here:</li>
+        <li>Make a function call that displays the third book title from the XML here:</li>
+        <li>Create a function that displays the author of the first book in the XMl and display the author's name in this span element <span id="authorName"></span></li>
+        <li>Create a function that displays the data in the XML in the table with the id "GOT" above (before the ordered list that describes the exercises). Give the table the following headings: Author, Title, Year - and display the data accordingly. Remember to give your table borders.</li>
+        <li>Create an external XML file in the same format as shown in the JavaScript, replacing the data with the author, book titles, and publication year of the Harry Potter book series.</li>
+        <li>The next part only works when serving the HTML-page from a webserver (e.g. using VSCode Live Server or GitHub Pages). You can also choose to create an account with the free webhosting service <a href="https://www.000webhost.com/" target="_blank">000webhost</a>, which would also work.</li>
+        <li>Recreate exercise 4, displaying the data from the external XML file in the table with the id "HP" above. Remember to add the XMLHttpRequest status check to your code as shown in the slides. Then upload the files to 000webhost and test that it works.<b><u>Note:</u></b> This will not work locally on your computer. </li>
+        <li>Congratulations! You have now updated your webpage with content from an external file &#128526;</li>
+        <li>Using the list created in 1+2, write a function that prints the length of what makes you happy, what you are good at and what you want to learn.
+            <ul>
+                <li id="happy">Things that make me happy:</li>
+                <li id="good">Things I am good at: </li>
+                <li id="learn">Things I want to learn: </li>
+            </ul>
+        </li>
+        <li>For a bit of existential philosophy - spend two minutes considering which list is longer and what that means to you or simply move on to the next exercise.</li>
+        <li>You will now prepare your website for SEP to receive a list using XML. Please check which of these two points applies to you<ul>
+                <li>If you already have the list that your Java application generates, then load that to your SEP webpage</li>
+                <li>If you do not yet have the file that your Java-application generates, make a prototype and load it to your webpage</li>
+            </ul>
+        </li>
+    </ol>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

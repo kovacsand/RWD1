@@ -1,0 +1,11 @@
+.got-table, .hp-table
+{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+#GOT, #HP
+{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
